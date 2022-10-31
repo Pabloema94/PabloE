@@ -23,9 +23,12 @@
               "src/assets"
             ],
             "styles": [
+              "pabloE/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "pabloE/node_modules/bootstrap/dist/js/bootstrap.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -97,5 +100,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "3bcaccc7-bc95-448b-835d-35d4a3feaac7"
   }
 }
